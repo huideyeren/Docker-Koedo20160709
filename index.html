@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Dockerでいろいろ動かしてみた</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/takakura.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -23,10 +23,18 @@
 	</head>
 	<body>
 		<div class="reveal">
+			<pre style="display:none"><code></code></pre>
+			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown="./docker.md"
+					data-separator="\n---\n$"
+					data-separator-vertical="\n--\n"
+					data-separator-notes="\n___\n">
+					<script type="text/template">
+					</script>
+				</section>
 			</div>
+
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
