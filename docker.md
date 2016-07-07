@@ -12,9 +12,30 @@
 
 Linuxコンテナを利用した、  
 環境構築とかデプロイとか  
-いろいろ楽になるツール。
+いろいろ楽になるツール群。
 
 （多少の誤解あり）
+
+---
+
+## 何が便利になるのか
+
+1. 環境構築
+2. テスト
+3. デプロイ
+
+統一された環境ができるのがミソ
+
+---
+
+## Docker for Macのインストール
+
+以下の条件が必要
+
+1. 2010年以後に発売されたMacであること
+2. OS X 10.10.3 Yosemite以後であること
+3. メモリが最低4GB搭載されていること
+4. VirtualBox 4.3.30以前がインストールされていないこと
 
 ---
 
@@ -68,6 +89,14 @@ https://github.com/huideyeren/wordpress-h2o-http2-hhvm
 - Railsアプリ
   - 現在行っているRuby勉強会で作成中のアプリ
   - https://github.com/yochiyochirb/kawaiichan
+
+---
+
+## Dockerの今後
+
+WindowsコンテナーはDockerと互換性があるらしい
+
+もしかしたらWindowsとLinuxでオーケストレーション？
 
 ---
 
